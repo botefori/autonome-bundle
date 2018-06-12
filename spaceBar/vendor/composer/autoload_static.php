@@ -82,6 +82,7 @@ class ComposerStaticInit5fcfc320649158da3005603e1f56472b
         'K' => 
         array (
             'Knp\\Bundle\\MarkdownBundle\\' => 26,
+            'KnpU\\LoremIpsumBundle\\' => 22,
         ),
         'H' => 
         array (
@@ -303,6 +304,10 @@ class ComposerStaticInit5fcfc320649158da3005603e1f56472b
         'Knp\\Bundle\\MarkdownBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/knplabs/knp-markdown-bundle',
+        ),
+        'KnpU\\LoremIpsumBundle\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/lib/LoremIpsumBundle/src',
         ),
         'Http\\Promise\\' => 
         array (
