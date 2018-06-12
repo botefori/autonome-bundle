@@ -1,0 +1,16 @@
+version: '2.0'
+
+services:
+    proxy:
+        image: jwilder/nginx-proxy
+        volumes:
+            - "/var/run/docker.sock:/tmp/docker.sock:ro"
+
+    spacebar:
+        build: docker/php70
+        image: web-framework/php70
+        volumes:
+          - ./spaceBar:/var/www/html
+        environment:
+            VIRTUAL_HOST: spacebar.site.docker
+            DOMAIN_NAME: spacebar.site.docker
