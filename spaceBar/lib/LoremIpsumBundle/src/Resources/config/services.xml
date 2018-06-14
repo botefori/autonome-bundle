@@ -6,6 +6,6 @@
 
     <services>
         <service id="knpu_lorem_ipsum.knpu_ipsum"  class="KnpU\LoremIpsumBundle\KnpUIpsum" public="true"/>
-        <service id="KnpU\LoremIpsumBundle\KnpUIpsum" alias="knpu_lorem_ipsum.knpu_ipsum" public="false"/>
+        <service id="KnpU\LoremIpsumBundle\KnpUIpsum" alias="knpu_lorem_ipsum.knpu_ipsum" public="true"/>
     </services>
 </container>
