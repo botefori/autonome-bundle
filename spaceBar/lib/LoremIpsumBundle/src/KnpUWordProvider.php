@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace KnpU\LoremIpsumBundle;
 
 
-class KnpUWordProvider
+class KnpUWordProvider implements WordProviderInterface
 {
   public function getWordList():array
   {
