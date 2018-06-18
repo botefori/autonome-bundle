@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-use KnpU\LoremIpsumBundle\KnpUIpsum;
+use KnpU\LoremIpsumIbrahBundle\KnpUIpsum;
 use App\Service\MarkdownHelper;
 use App\Service\SlackClient;
 use Psr\Log\LoggerInterface;

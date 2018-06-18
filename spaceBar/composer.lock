@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f6eba8daead9e87802e7a1b3f56dc68f",
+    "content-hash": "ad9fdb4c98441627b53540068f090e70",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -706,6 +706,38 @@
             "time": "2018-01-23T15:34:53+00:00"
         },
         {
+            "name": "knpuniversity/lorem-ipsum-ibrah-bundle",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/var/www/LoremIpsumIbrahBundle",
+                "reference": "15d2487131f3ef9726bc319eaf5209ff760445ee",
+                "shasum": null
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "KnpU\\LoremIpsumIbrahBundle\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "CAMARA Ibrahima Sory",
+                    "email": "botefori@gmail.com"
+                }
+            ],
+            "description": "A bundle to provide world provider service",
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
             "name": "michelf/php-markdown",
             "version": "1.8.0",
             "source": {
@@ -803,7 +835,7 @@
                     "email": "github@mak.geek.nz"
                 },
                 {
-                    "name": "Sullivan SENECHAL",
+                    "name": "Sullivan Sénéchal",
                     "email": "soullivaneuh@gmail.com"
                 }
             ],
@@ -859,7 +891,7 @@
             ],
             "authors": [
                 {
-                    "name": "Sullivan SENECHAL",
+                    "name": "Sullivan Sénéchal",
                     "email": "soullivaneuh@gmail.com"
                 }
             ],
@@ -3542,16 +3574,16 @@
         },
         {
             "name": "easycorp/easy-log-handler",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/EasyCorp/easy-log-handler.git",
-                "reference": "1a617a37ab9389eac4e2e1d14cb70ee0087d724d"
+                "reference": "21c442f5d08b6761a6fa7653e08a5525fb4ccd2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EasyCorp/easy-log-handler/zipball/1a617a37ab9389eac4e2e1d14cb70ee0087d724d",
-                "reference": "1a617a37ab9389eac4e2e1d14cb70ee0087d724d",
+                "url": "https://api.github.com/repos/EasyCorp/easy-log-handler/zipball/21c442f5d08b6761a6fa7653e08a5525fb4ccd2b",
+                "reference": "21c442f5d08b6761a6fa7653e08a5525fb4ccd2b",
                 "shasum": ""
             },
             "require": {
@@ -3588,7 +3620,7 @@
                 "monolog",
                 "productivity"
             ],
-            "time": "2018-01-10T08:34:20+00:00"
+            "time": "2018-06-12T06:27:09+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -4374,6 +4406,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "knpuniversity/lorem-ipsum-ibrah-bundle": 20,
         "symfony/lts": 20
     },
     "prefer-stable": false,

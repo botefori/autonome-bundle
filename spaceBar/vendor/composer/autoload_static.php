@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit5fcfc320649158da3005603e1f56472b
+class ComposerStaticInit614aeaab10fb87aed1bf5c8bfb7e1b20
 {
     public static $files = array (
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
@@ -82,7 +82,7 @@ class ComposerStaticInit5fcfc320649158da3005603e1f56472b
         'K' => 
         array (
             'Knp\\Bundle\\MarkdownBundle\\' => 26,
-            'KnpU\\LoremIpsumBundle\\' => 22,
+            'KnpU\\LoremIpsumIbrahBundle\\' => 27,
         ),
         'H' => 
         array (
@@ -305,9 +305,9 @@ class ComposerStaticInit5fcfc320649158da3005603e1f56472b
         array (
             0 => __DIR__ . '/..' . '/knplabs/knp-markdown-bundle',
         ),
-        'KnpU\\LoremIpsumBundle\\' => 
+        'KnpU\\LoremIpsumIbrahBundle\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/lib/LoremIpsumBundle/src',
+            0 => __DIR__ . '/..' . '/knpuniversity/lorem-ipsum-ibrah-bundle/src',
         ),
         'Http\\Promise\\' => 
         array (
@@ -425,9 +425,9 @@ class ComposerStaticInit5fcfc320649158da3005603e1f56472b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit5fcfc320649158da3005603e1f56472b::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit5fcfc320649158da3005603e1f56472b::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit5fcfc320649158da3005603e1f56472b::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit614aeaab10fb87aed1bf5c8bfb7e1b20::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit614aeaab10fb87aed1bf5c8bfb7e1b20::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit614aeaab10fb87aed1bf5c8bfb7e1b20::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }

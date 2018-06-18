@@ -51,7 +51,7 @@ return array(
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'Michelf\\' => array($vendorDir . '/michelf/php-markdown/Michelf'),
     'Knp\\Bundle\\MarkdownBundle\\' => array($vendorDir . '/knplabs/knp-markdown-bundle'),
-    'KnpU\\LoremIpsumBundle\\' => array($baseDir . '/lib/LoremIpsumBundle/src'),
+    'KnpU\\LoremIpsumIbrahBundle\\' => array($vendorDir . '/knpuniversity/lorem-ipsum-ibrah-bundle/src'),
     'Http\\Promise\\' => array($vendorDir . '/php-http/promise/src'),
     'Http\\Message\\' => array($vendorDir . '/php-http/message/src', $vendorDir . '/php-http/message-factory/src'),
     'Http\\HttplugBundle\\' => array($vendorDir . '/php-http/httplug-bundle'),
