@@ -11,6 +11,7 @@ services:
         image: web-framework/php70
         volumes:
           - ./spaceBar:/var/www/html
+          - ./LoremIpsumIbrahBundle:/var/www/LoremIpsumIbrahBundle
         environment:
             VIRTUAL_HOST: spacebar.site.docker
             DOMAIN_NAME: spacebar.site.docker

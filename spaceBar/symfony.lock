@@ -1,4 +1,7 @@
 {
+    "camara/lorem-ipsum-ibrah-bundle": {
+        "version": "dev-master"
+    },
     "clue/stream-filter": {
         "version": "v1.4.0"
     },
@@ -49,6 +52,9 @@
     },
     "knplabs/knp-markdown-bundle": {
         "version": "1.6.0"
+    },
+    "knpuniversity/lorem-ipsum-ibrah-bundle": {
+        "version": "dev-master"
     },
     "michelf/php-markdown": {
         "version": "1.8.0"
