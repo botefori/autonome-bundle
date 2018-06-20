@@ -9,7 +9,7 @@
 namespace App\Service;
 
 
-use KnpU\LoremIpsumBundle\KnpUWordProvider;
+use KnpU\LoremIpsumIbrahBundle\KnpUWordProvider;
 
 class CustomWordProvider extends KnpUWordProvider
 {

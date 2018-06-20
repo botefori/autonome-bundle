@@ -528,17 +528,17 @@
     },
     {
         "name": "easycorp/easy-log-handler",
-        "version": "v1.0.4",
-        "version_normalized": "1.0.4.0",
+        "version": "v1.0.5",
+        "version_normalized": "1.0.5.0",
         "source": {
             "type": "git",
             "url": "https://github.com/EasyCorp/easy-log-handler.git",
-            "reference": "1a617a37ab9389eac4e2e1d14cb70ee0087d724d"
+            "reference": "21c442f5d08b6761a6fa7653e08a5525fb4ccd2b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/EasyCorp/easy-log-handler/zipball/1a617a37ab9389eac4e2e1d14cb70ee0087d724d",
-            "reference": "1a617a37ab9389eac4e2e1d14cb70ee0087d724d",
+            "url": "https://api.github.com/repos/EasyCorp/easy-log-handler/zipball/21c442f5d08b6761a6fa7653e08a5525fb4ccd2b",
+            "reference": "21c442f5d08b6761a6fa7653e08a5525fb4ccd2b",
             "shasum": ""
         },
         "require": {
@@ -546,7 +546,7 @@
             "php": ">=5.3.0",
             "symfony/yaml": "~2.3|~3.0|~4.0"
         },
-        "time": "2018-01-10T08:34:20+00:00",
+        "time": "2018-06-12T06:27:09+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -831,6 +831,40 @@
         ]
     },
     {
+        "name": "knpuniversity/lorem-ipsum-ibrah-bundle",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "path",
+            "url": "/var/www/LoremIpsumIbrahBundle",
+            "reference": "15d2487131f3ef9726bc319eaf5209ff760445ee",
+            "shasum": null
+        },
+        "require": {
+            "php": "^7.1.3"
+        },
+        "type": "symfony-bundle",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "KnpU\\LoremIpsumIbrahBundle\\": "src/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "CAMARA Ibrahima Sory",
+                "email": "botefori@gmail.com"
+            }
+        ],
+        "description": "A bundle to provide world provider service",
+        "transport-options": {
+            "symlink": true
+        }
+    },
+    {
         "name": "michelf/php-markdown",
         "version": "1.8.0",
         "version_normalized": "1.8.0.0",
@@ -1013,7 +1047,7 @@
                 "email": "github@mak.geek.nz"
             },
             {
-                "name": "Sullivan SENECHAL",
+                "name": "Sullivan Sénéchal",
                 "email": "soullivaneuh@gmail.com"
             }
         ],
@@ -1071,7 +1105,7 @@
         ],
         "authors": [
             {
-                "name": "Sullivan SENECHAL",
+                "name": "Sullivan Sénéchal",
                 "email": "soullivaneuh@gmail.com"
             }
         ],
