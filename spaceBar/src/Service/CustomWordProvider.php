@@ -9,16 +9,14 @@
 namespace App\Service;
 
 
-use KnpU\LoremIpsumIbrahBundle\KnpUWordProvider;
+use KnpU\LoremIpsumIbrahBundle\WordProviderInterface;
 
-class CustomWordProvider extends KnpUWordProvider
+class CustomWordProvider implements WordProviderInterface
 {
     public function getWordList(): array
     {
-        $word = parent::getWordList();
-        $word[] = 'beatch';
 
-        return $word;
+        return ['Beach'];
     }
 
 }
